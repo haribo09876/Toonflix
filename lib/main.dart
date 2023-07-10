@@ -8,8 +8,14 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    throw UnimplementedError();
-    return
+    return MaterialApp(
+      home:Scaffold(
+        appBar: AppBar(
+          title: Text('Hello Flutter'),
+        ),
+        body: Center(Text('Hello World!'),
+        ),
+      ),
+    );
   }
-
 }
