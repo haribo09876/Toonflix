@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         foregroundColor: Colors.green,
         title: const Text(
-          "어늘의 웹툰",
+          "오늘의 웹툰",
           style: TextStyle(
             fontSize: 24,
           ),
@@ -63,7 +63,13 @@ class HomeScreen extends StatelessWidget {
                   )
                 ],
               ),
-              child: Image.network(webtoon.thumb),
+              child: Image.network(
+                webtoon.thumb,
+                headers: const {
+                  "User-Agent":
+                      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+                },
+              ),
             ),
             const SizedBox(
               height: 10,
