@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
             fontSize: 24,
           ),
         ),
+        centerTitle: true,
       ),
       body: FutureBuilder(
         future: webtoons,
