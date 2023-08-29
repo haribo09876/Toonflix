@@ -1,3 +1,3 @@
 # toonflix
 
-This is toonflix project (Nado Coding lecture) by KYW
+This is toonflix project (Nomad Coders lecture) by KYW
