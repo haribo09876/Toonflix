@@ -1,3 +1,3 @@
-# toonflix
+# Toonflix
 
-This is toonflix project (Nomad Coders lecture) by KYW
+This is Toonflix project (Nomad Coders lecture) by KYW
